@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
         <meta name='description' content='Description' />
       </head>
       <header className={styles.header}>
-          <h1>My Next.js App</h1>
+          <h1>Social Media App</h1>
         </header>
         <nav className={styles.nav}>
           {navLinks.map((link) => (
@@ -47,7 +47,7 @@ export default function RootLayout({ children }) {
         <main>{children}</main>
 
         <footer className={styles.footer}>
-          <p>© 2025 My Next.js App. All rights reserved.</p>
+          <p>© 2025 Social Media App. All rights reserved.</p>
         </footer>
         
       </body>
