@@ -1,0 +1,26 @@
+.subNav {
+    width: 200px;
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-right: 2px solid #bdc3c7;
+  }
+  
+  .link {
+    display: block;
+    color: #2c3e50;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .link:hover {
+    background-color: #dfe6e9;
+  }
+  
+  .active {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+  }
